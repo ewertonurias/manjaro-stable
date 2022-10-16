@@ -18,7 +18,7 @@ sudo mhwd -a pci nonfree 0300
 
 ### Instala minha seleção de pacotes
 printf "\nEtapa 5/5: Instalando minha seleção de softwares... \n\n"
-sudo pacman -Syu firefox-i18n-pt-br k{df,rita,colorchooser} inkscape libreoffice-still-pt-br qbittorrent vlc unrar steam discord telegram-desktop
+sudo pacman -Syu firefox-i18n-pt-br k{df,rita,colorchooser} inkscape libreoffice-still-pt-br qbittorrent vlc unrar steam discord telegram-desktop youtube-dl
 
 ### Fim do script.
 printf "\nFIM DO SCRIPT \n\n"
