@@ -34,4 +34,7 @@ flatpak install flathub com.discordapp.Discord
 flatpak install flathub com.github.Matoking.protontricks
 flatpak override --user --filesystem=/mnt/games/SteamLibrary com.github.Matoking.protontricks
 
+### Instala a sessão Wayland
+sudo pacman -Syu plasma-wayland-session
+
 ### Fim do script
