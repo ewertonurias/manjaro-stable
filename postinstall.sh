@@ -37,4 +37,10 @@ flatpak override --user --filesystem=/mnt/games/SteamLibrary com.github.Matoking
 ### Instala a sessão Wayland
 sudo pacman -Syu plasma-wayland-session
 
+### Instala o driver Vulkan de código aberto RADV
+sudo pacman -Syu amdvlk lib32-amdvlk
+
+### Instala o Gamemode e MangoHud
+sudo pacman -Syu gamemode lib32-gamemode mangohud
+
 ### Fim do script
